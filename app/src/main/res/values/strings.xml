@@ -6,4 +6,12 @@
     <string name="mv">MV</string>
     <string name="song_name">名称</string>
     <string name="lyrics">歌词</string>
+    <string name="popular_searches">热门搜索：</string>
+    <string name="song_1">歌曲1</string>
+    <string name="shuffle_playback">不知道想听啥？ 点击这里随便听听</string>
+    <string name="play_all_music">播放全部歌曲</string>
+    <string name="details">详细信息</string>
+    <string name="the_number_of_songs">歌曲 ： 100</string>
+    <string name="album_number">专辑 ： 10</string>
+    <string name="mv_number">MV ： 50</string>
 </resources>

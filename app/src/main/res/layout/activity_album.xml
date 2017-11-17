@@ -4,16 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="8dp"
+    android:layout_margin="@dimen/margin_main"
     android:orientation="vertical"
     tools:context="cn.xufucun.music.AlbumActivity">
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="@dimen/singer_height_details"
         android:scaleType="centerCrop"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:layout_marginBottom="@dimen/margin_medium"
         android:src="@drawable/img_singer"/>
 
     <TextView
@@ -21,14 +21,14 @@
         android:layout_height="wrap_content"
         style="@style/CategoryStyle"
         android:background="@color/color1"
-        android:text="歌曲 ： 100"/>
+        android:text="@string/the_number_of_songs"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         style="@style/CategoryStyle"
         android:background="@color/color2"
-        android:text="专辑 ： 10"/>
+        android:text="@string/album_number"/>
 
 
     <TextView
@@ -36,15 +36,19 @@
         android:layout_height="wrap_content"
         style="@style/CategoryStyle"
         android:background="@color/color3"
-        android:text="MV ： 50"/>
+        android:text="@string/mv_number"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         style="@style/CategoryStyle"
         android:background="@color/color4"
-        android:text="详细信息"/>
+        android:text="@string/details"/>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/play_all_music"/>
 
 
 

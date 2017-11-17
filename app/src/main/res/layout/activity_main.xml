@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -12,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:drawable/edit_text"
-        android:hint="搜索"/>
+        android:hint="@string/search"/>
 
     <ImageView
         android:id="@+id/banner"
@@ -44,7 +43,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="歌手"/>
+                    android:text="@string/singer"/>
 
             </LinearLayout>
 
@@ -62,7 +61,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="排行"/>
+                    android:text="@string/leaderboards"/>
 
             </LinearLayout>
 
@@ -79,7 +78,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="MV"/>
+                    android:text="@string/mv"/>
 
             </LinearLayout>
 
@@ -142,14 +141,14 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:gravity="center_vertical"
-                android:text="名称"
+                android:text="@string/song_name"
                 android:textSize="18sp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:gravity="center_vertical"
-                android:text="歌词"/>
+                android:text="@string/lyrics"/>
 
         </LinearLayout>
 
